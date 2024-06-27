@@ -16,7 +16,7 @@ other sources, such as ICE-Sat2 may be added in the future.
 You can install the development version of OpenEarthPoints with
 
 ``` r
-devtools::install_github("joheisig/OpenEarthPoint")
+devtools::install_github("joheisig/OpenEarthPoints")
 ```
 
 # Background
