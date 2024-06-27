@@ -25,7 +25,7 @@ This R-package has the purpose conveniently retrieving large geospatial point da
 You can install the development version of OpenEarthPoints with
 
 ```{r, eval=FALSE}
-devtools::install_github("joheisig/OpenEarthPoint")
+devtools::install_github("joheisig/OpenEarthPoints")
 ```
 
 
