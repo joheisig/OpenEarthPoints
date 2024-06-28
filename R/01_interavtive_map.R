@@ -1,15 +1,5 @@
-# lookup = file.path(getwd(), "R/lookup.fgb")
-# if (!file.exists(lookup)){
-#   .lookup_table = sf::st_read('http://s3.eu-central-1.wasabisys.com/gedi-ard/gedi_lookup.fgb', quiet=T)
-#   sf::st_write(.lookup_table, lookup, quiet = T, delete_dsn = T)
-# } else {
-#   .lookup_table = sf::st_read(lookup, quiet=T)
-# }
-# rm(lookup)
-
 mapview::mapviewOptions(basemaps = c('OpenStreetMap', 'Esri.WorldImagery'),
                         legend.pos = "bottomright")
-
 
 #' Draw a bounding box
 #'
